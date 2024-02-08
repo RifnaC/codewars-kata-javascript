@@ -20,14 +20,14 @@ The first argument can be an empty string
 In languages with no distinct character data type, the second argument will be a string of length 1
 
 ## Answers 
-1. Using filter 
-function strCount(str, letter){  
-  let array = str.split("")
-  let res = array.filter(element =>letter === element);
-  return res.length;
-}
+1. Using filter:
+   function strCount(str, letter){  
+    let array = str.split("")
+    let res = array.filter(element =>letter === element);
+    return res.length;
+  }
 
-2.Without using filter
-function strCount(str, letter){  
-  return str.split(letter).length-1
-}
+2. Without using filter
+  function strCount(str, letter){  
+    return str.split(letter).length-1
+  }
