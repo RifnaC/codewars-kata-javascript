@@ -30,6 +30,6 @@ In languages with no distinct character data type, the second argument will be a
 
 2. Without using filter
 
-  function strCount(str, letter){  
-    return str.split(letter).length-1
-  }
+     function strCount(str, letter){  
+       return str.split(letter).length-1
+     }
