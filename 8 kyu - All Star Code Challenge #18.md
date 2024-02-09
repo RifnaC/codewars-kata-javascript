@@ -21,15 +21,13 @@ In languages with no distinct character data type, the second argument will be a
 
 ## Answers 
 1. Using filter:
+      `function strCount(str, letter){
+         let array = str.split("")
+         let res = array.filter(element =>letter === element);
+         return res.length;
+      }`
 
-   function strCount(str, letter){  
-    let array = str.split("")
-    let res = array.filter(element =>letter === element);
-    return res.length;
-  }
-
-2. Without using filter
-
-     function strCount(str, letter){  
+3. Without using filter
+    ` function strCount(str, letter){  
        return str.split(letter).length-1
-     }
+     }`
