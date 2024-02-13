@@ -14,9 +14,11 @@ Return false for invalid numbers too (e.g volume or side is less than or equal t
 Note: side will be an integer
 
 # Answers
-1. `const cubeChecker = function(volume, side){
-     return side > 0 && volume === Math.pow(side, 3)? true: false;
-};`
-2. `var cubeChecker = function(volume, side){
-      return Math.pow(side, 3) === volume && side > 0;
-   };`
+1.
+
+       const cubeChecker = function(volume, side){
+            return side > 0 && volume === Math.pow(side, 3)? true: false;
+       };     
+3.      const cubeChecker = function(volume, side){
+           return Math.pow(side, 3) === volume && side > 0;
+        };
