@@ -16,25 +16,25 @@ Switch the boolean value on the same element as the flick itself.
 
 ## Answer
 1. Using new array :
-   
-   `function flickSwitch(arr){
-    const rs = []
-    let on = true;
-    arr.map(e=> {
-     if( e==="flick"){
-       on = !on ;
-       rs.push(on)
-     } else{
-       rs.push(on);
-     }
-      return on
-    })
-    return rs;
-   }`
+
+         function flickSwitch(arr){
+            const rs = []
+            let on = true;
+            arr.map(e=> {
+               if( e==="flick"){
+                   on = !on ;
+                   rs.push(on)
+               } else{
+                   rs.push(on);
+               }
+               return on
+            });
+            return rs;
+         }
 2. Without using new array
 
-   `function flickSwitch(arr){
-     let on = true;
-      return arr.map(e => {return e ==="flick" ? on = !on : on});
-   }`
+         function flickSwitch(arr){
+            let on = true;
+            return arr.map(e => {return e ==="flick" ? on = !on : on});
+         }
    
