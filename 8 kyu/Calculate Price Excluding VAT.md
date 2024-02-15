@@ -14,6 +14,7 @@ If null value given then return -1
 
 ## Answers 
 //return price without vat
+
     function excludingVatPrice(price){
         return (price == null) ? -1 : +(price / (1 + 15 / 100)).toFixed(2)
     }
