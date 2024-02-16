@@ -10,13 +10,13 @@ Go show some truth who's boss!
 ## Answers
 1. Using the !true
 
-    function ifChuckSaysSo(){
-        return !true;
-    }
+        function ifChuckSaysSo(){
+           return !true ;
+        }
 
 2. Using NaN
 
-    function ifChuckSaysSo(){
-        return NaN === NaN;
-    }
+        function ifChuckSaysSo(){
+            return NaN === NaN;
+        }
 
