@@ -9,12 +9,14 @@ Simples!
 
 # Solutions
 1.
-''' javascript
-  function fixTheMeerkat(arr){
-        return arr.reverse();
-  }'''
+``` javascript
+function fixTheMeerkat(arr){
+  return arr.reverse();
+}
+```
 
 2.
-
-      const fixTheMeerkat = ([tail, body, head]) => [head, body, tail]
+``` javascript
+const fixTheMeerkat = ([tail, body, head]) => [head, body, tail]
+```
 
