@@ -9,11 +9,13 @@ P.S. You have to create a new list and add a new item to that. (This Kata is ori
 
 ## Answers 
 1.Using concat Method
+
         function addExtra( listOfNumbers ){ 
             return listOfNumbers.concat([1]);
         }
 
 2.Using spread Method
+
         function addExtra(listOfNumbers){
             return [...listOfNumbers, 1];
         }
