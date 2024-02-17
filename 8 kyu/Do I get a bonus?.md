@@ -10,7 +10,7 @@ Return the total figure the individual will receive as a string prefixed with "�
 
 ## Answers 
 Using Ternary operator
-
-        function bonusTime(salary, bonus) {
-            return bonus ? `£${salary*10}`:`£${salary}`;
-        }
+``` javascript
+function bonusTime(salary, bonus) {
+        return bonus ? `£${salary*10}`:`£${salary}`;
+}
