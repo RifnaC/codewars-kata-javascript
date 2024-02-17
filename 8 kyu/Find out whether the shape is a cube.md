@@ -21,7 +21,7 @@ const cubeChecker = function(volume, side){
 };
 ```
 2.
-``` javasript
+``` javascript
 const cubeChecker = function(volume, side){
        return Math.pow(side, 3) === volume && side > 0;
 };
