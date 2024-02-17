@@ -1,7 +1,7 @@
 # Question 
 To find the volume (centimeters cubed) of a cuboid you use the formula:
 
-volume = Length * Width * Height
+       volume = Length * Width * Height
 
 But someone forgot to use proper record keeping, so we only have the volume, and the length of a single side!
 
@@ -15,10 +15,13 @@ Note: side will be an integer
 
 # Answers
 1.
-
-       const cubeChecker = function(volume, side){
-            return side > 0 && volume === Math.pow(side, 3)? true: false;
-       };     
-3.      const cubeChecker = function(volume, side){
-           return Math.pow(side, 3) === volume && side > 0;
-        };
+``` javascript 
+const cubeChecker = function(volume, side){
+       return side > 0 && volume === Math.pow(side, 3)? true: false;
+};
+```
+2.
+``` javasript
+const cubeChecker = function(volume, side){
+       return Math.pow(side, 3) === volume && side > 0;
+};
