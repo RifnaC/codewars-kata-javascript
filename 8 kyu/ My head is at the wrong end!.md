@@ -9,10 +9,10 @@ Simples!
 
 # Solutions
 1.
-
-      function fixTheMeerkat(arr){
-          return arr.reverse();
-      }
+''' javascript
+  function fixTheMeerkat(arr){
+        return arr.reverse();
+  }'''
 
 2.
 
