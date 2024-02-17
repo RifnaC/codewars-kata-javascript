@@ -3,17 +3,12 @@ Create a function that accepts a string and a single character, and returns an i
 
 If no occurrences can be found, a count of 0 should be returned.
 
-("Hello", "o")  ==>  1
-
-("Hello", "l")  ==>  2
-
-("", "z")       ==>  0
-
-str_count("Hello", 'o'); // returns 1
-
-str_count("Hello", 'l'); // returns 2
-
-str_count("", 'z'); // returns 0
+      ("Hello", "o")  ==>  1
+      ("Hello", "l")  ==>  2
+      ("", "z")       ==>  0
+      str_count("Hello", 'o'); // returns 1
+      str_count("Hello", 'l'); // returns 2
+      str_count("", 'z'); // returns 0
 
 ## Notes
 The first argument can be an empty string
@@ -21,15 +16,16 @@ In languages with no distinct character data type, the second argument will be a
 
 ## Answers 
 1. Using filter:
-   
-         function strCount(str, letter){
-            let array = str.split("")
-            let res = array.filter(element =>letter === element);
-             return res.length;
-         }
-
+   ``` javascript
+   function strCount(str, letter){
+      let array = str.split("")
+      let res = array.filter(element =>letter === element);
+      return res.length;
+   }
+   ```
 2. Without using filter
-   
-       function strCount(str, letter){  
-          return str.split(letter).length-1
-        }
+   ``` javascript
+   function strCount(str, letter){
+      return str.split(letter).length-1
+   }
+   ```
