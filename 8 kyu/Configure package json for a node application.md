@@ -51,18 +51,18 @@ UNLICENSED
 SEE LICENSE IN filename
 
 ## Answers
-
-        const configuration = {
-            "dependencies": {
-                "axios": "1.5.1",    
-            },
-            "name": "book-store",
-            "version": "1.0.0",
-            "description": "Book store",
-            "main": "index.js",
-            "scripts": {
-                "test": "nodemon index.js"
-            },
-            "author": "name",
-            "license": "ISC"
-        };
+``` javascript
+const configuration = {
+    "dependencies": {
+        "axios": "1.5.1",    
+    },
+    "name": "book-store",
+    "version": "1.0.0",
+    "description": "Book store",
+    "main": "index.js",
+    "scripts": {
+        "test": "nodemon index.js"
+    },
+    "author": "name",
+    "license": "ISC"
+};
