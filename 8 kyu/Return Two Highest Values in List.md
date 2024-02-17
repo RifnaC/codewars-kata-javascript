@@ -12,14 +12,14 @@ Examples:
 
 ## Answers
 1. Using set, sort and slice methods
-
-        function twoHighest(arr) {
-            return [...new Set(arr)].sort((a,b)=>b-a).slice(0,2)
-        }
-
+``` javascript
+function twoHighest(arr) {
+    return [...new Set(arr)].sort((a,b)=>b-a).slice(0,2)
+}
+```
 2.  Using filter, sort and slice methods
-
-        const twoHighest = a => a
-            .filter((e, i) => i === a.lastIndexOf(e))
-            .sort((x, y) => y - x)
-            .slice(0, 2);
+``` javascript
+const twoHighest = a => a
+    .filter((e, i) => i === a.lastIndexOf(e))
+    .sort((x, y) => y - x)
+    .slice(0, 2);
