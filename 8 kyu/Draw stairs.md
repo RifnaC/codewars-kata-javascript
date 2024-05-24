@@ -25,6 +25,7 @@ I
 
 ## Answer
 ```javascript
+1. Using for loop
 function drawStairs(n) {
   let ans = ""
   for(let i = 0; i < n; i++){
@@ -37,4 +38,8 @@ function drawStairs(n) {
   }
   return ans
 }
+
+2. Using in-built methods
+[...Array(n)].map((e,i)=>" ".repeat(i)+"I").join("\n")
+
 ```
